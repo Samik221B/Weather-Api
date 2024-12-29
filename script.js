@@ -57,7 +57,7 @@ async function checkweather(city)
     }
     else if(data.weather[0].main=="Haze")
     {
-        weatherIcon.src="images/atmosphere.png";
+        weatherIcon.src="images/haze.png";
     }
     else if(data.weather[0].main=="Fog")
     {
