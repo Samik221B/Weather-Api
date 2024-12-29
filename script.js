@@ -59,6 +59,10 @@ async function checkweather(city)
     {
         weatherIcon.src="images/atmosphere.png";
     }
+    else if(data.weather[0].main=="Fog")
+    {
+        weatherIcon.src="images/fog.png";
+    }
     else if(data.weather[0].main=="Mist")
     {
         weatherIcon.src="images/mist.png";
